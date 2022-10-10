@@ -30,7 +30,7 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v5
       name: Build & push Docker image
       with:
-        image: HDNoodles/GithubActions
+        image: hdnoodles/githubactions
         tags: v1, latest
         registry: docker.io
         dockerfile: Dockerfile.ci
